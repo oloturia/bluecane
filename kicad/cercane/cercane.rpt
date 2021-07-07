@@ -1,0 +1,126 @@
+## Footprint report - date Thu Jul  1 21:37:50 2021
+## Created by Pcbnew version kicad 5.1.10-88a1d61d58~88~ubuntu18.04.1
+## Unit = mm, Angle = deg.
+
+$BeginDESCRIPTION
+
+$BOARD
+upper_left_corner 111.709999 54.559999
+lower_right_corner 186.740001 92.320581
+$EndBOARD
+
+$MODULE "U2"
+reference "U2"
+value "NRF24L01_Breakout"
+footprint "RF_Module:nRF24L01_Breakout"
+attribut none
+position 156.210000 71.120000  orientation 0.00
+layer front
+$PAD "8"
+Shape Circle Layer both
+position  2.540000  7.620000  size  1.524000  1.524000  orientation 0.00
+drill  0.762000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "7"
+Shape Circle Layer both
+position  0.000000  7.620000  size  1.524000  1.524000  orientation 0.00
+drill  0.762000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "6"
+Shape Circle Layer both
+position  2.540000  5.080000  size  1.524000  1.524000  orientation 0.00
+drill  0.762000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Circle Layer both
+position  0.000000  5.080000  size  1.524000  1.524000  orientation 0.00
+drill  0.762000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Circle Layer both
+position  2.540000  2.540000  size  1.524000  1.524000  orientation 0.00
+drill  0.762000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Circle Layer both
+position  0.000000  2.540000  size  1.524000  1.524000  orientation 0.00
+drill  0.762000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position  2.540000  0.000000  size  1.524000  1.524000  orientation 0.00
+drill  0.762000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  1.524000  1.524000  orientation 0.00
+drill  0.762000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  U2
+
+$MODULE "U1"
+reference "U1"
+value "ATtiny45-20PU"
+footprint "ATTINY45-20PU:DIP787W46P254L927H533Q8"
+attribut none
+position 129.540000 74.930000  orientation 0.00
+layer front
+$PAD "7"
+Shape Circle Layer both
+position  3.935000 -1.270000  size  1.308000  1.308000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "6"
+Shape Circle Layer both
+position  3.935000  1.270000  size  1.308000  1.308000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "8"
+Shape Circle Layer both
+position  3.935000 -3.810000  size  1.308000  1.308000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Circle Layer both
+position  3.935000  3.810000  size  1.308000  1.308000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer both
+position -3.935000 -3.810000  size  1.308000  1.308000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Circle Layer both
+position -3.935000  3.810000  size  1.308000  1.308000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Circle Layer both
+position -3.935000 -1.270000  size  1.308000  1.308000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Circle Layer both
+position -3.935000  1.270000  size  1.308000  1.308000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  U1
+
+$EndDESCRIPTION
