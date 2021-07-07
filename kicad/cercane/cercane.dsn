@@ -1,0 +1,166 @@
+(pcb /media/antiz/openshare/Documents/RaspiBO/kicad/cercane/cercane/cercane.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "5.1.7-a382d34a8~88~ubuntu18.04.1")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  168790 -90739.5  139240 -90739.5  139240 -65182.5  168790 -65182.5
+            168790 -90739.5)
+    )
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component RF_Module:nRF24L01_Breakout
+      (place U2 141015 -68940 front 0 (PN NRF24L01_Breakout))
+    )
+    (component "ATTINY85-20SU:SOIC127P798X216-8N"
+      (place U1 144780 -86360 front 0 (PN "ATtiny45-20SU"))
+    )
+  )
+  (library
+    (image RF_Module:nRF24L01_Breakout
+      (outline (path signal 50  27750 2250  27750 2250))
+      (outline (path signal 50  27750 -13500  27750 2250))
+      (outline (path signal 50  -1750 -13500  27750 -13500))
+      (outline (path signal 50  -1750 2250  -1750 -13500))
+      (outline (path signal 50  27750 2250  -1750 2250))
+      (outline (path signal 120  -1270 1524  -1270 1524))
+      (outline (path signal 120  -1270 -9144  -1270 1524))
+      (outline (path signal 120  -1600 2100  -1600 2100))
+      (outline (path signal 120  -1600 -13350  -1600 2100))
+      (outline (path signal 120  27600 -13350  -1600 -13350))
+      (outline (path signal 120  27600 2100  27600 -13350))
+      (outline (path signal 120  -1600 2100  27600 2100))
+      (outline (path signal 120  -1016 -1270  -1016 -1270))
+      (outline (path signal 120  1270 -1270  -1016 -1270))
+      (outline (path signal 120  1270 1016  1270 -1270))
+      (outline (path signal 120  -1270 -9144  -1270 -9144))
+      (outline (path signal 120  4064 -9144  -1270 -9144))
+      (outline (path signal 120  4064 1524  4064 -9144))
+      (outline (path signal 120  -1270 1524  4064 1524))
+      (outline (path signal 100  -1270 1270  -1270 1270))
+      (outline (path signal 100  -1270 -8890  -1270 1270))
+      (outline (path signal 100  3810 -8890  -1270 -8890))
+      (outline (path signal 100  3810 1270  3810 -8890))
+      (outline (path signal 100  -1270 1270  3810 1270))
+      (outline (path signal 100  -1500 2000  -1500 2000))
+      (outline (path signal 100  -1500 -13250  -1500 2000))
+      (outline (path signal 100  27500 -13250  -1500 -13250))
+      (outline (path signal 100  27500 2000  27500 -13250))
+      (outline (path signal 100  -1500 2000  27500 2000))
+      (pin Round[A]Pad_1524_um 8 2540 -7620)
+      (pin Round[A]Pad_1524_um 7 0 -7620)
+      (pin Round[A]Pad_1524_um 6 2540 -5080)
+      (pin Round[A]Pad_1524_um 5 0 -5080)
+      (pin Round[A]Pad_1524_um 4 2540 -2540)
+      (pin Round[A]Pad_1524_um 3 0 -2540)
+      (pin Round[A]Pad_1524_um 2 2540 0)
+      (pin Rect[A]Pad_1524x1524_um 1 0 0)
+    )
+    (image "ATTINY85-20SU:SOIC127P798X216-8N"
+      (outline (path signal 50  4735 2870  4735 -2870))
+      (outline (path signal 50  -4735 2870  -4735 -2870))
+      (outline (path signal 50  -4735 -2870  4735 -2870))
+      (outline (path signal 50  -4735 2870  4735 2870))
+      (outline (path signal 127  2645 2620  2645 -2620))
+      (outline (path signal 127  -2645 2620  -2645 -2620))
+      (outline (path signal 127  -2645 -2620  2645 -2620))
+      (outline (path signal 127  -2645 2620  2645 2620))
+      (outline (path signal 127  -2645 -2620  2645 -2620))
+      (outline (path signal 127  -2645 2620  2645 2620))
+      (outline (path signal 200  -5240 2485  -5290 2398.4  -5390 2398.4  -5440 2485  -5390 2571.6
+            -5290 2571.6  -5240 2485))
+      (outline (path signal 200  -5240 2485  -5290 2398.4  -5390 2398.4  -5440 2485  -5390 2571.6
+            -5290 2571.6  -5240 2485))
+      (pin Rect[T]Pad_1710x580_um 8 3630 1905)
+      (pin Rect[T]Pad_1710x580_um 7 3630 635)
+      (pin Rect[T]Pad_1710x580_um 6 3630 -635)
+      (pin Rect[T]Pad_1710x580_um 5 3630 -1905)
+      (pin Rect[T]Pad_1710x580_um 4 -3630 -1905)
+      (pin Rect[T]Pad_1710x580_um 3 -3630 -635)
+      (pin Rect[T]Pad_1710x580_um 2 -3630 635)
+      (pin Rect[T]Pad_1710x580_um 1 -3630 1905)
+    )
+    (padstack Round[A]Pad_1524_um
+      (shape (circle F.Cu 1524))
+      (shape (circle B.Cu 1524))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1524x1524_um
+      (shape (rect F.Cu -762 -762 762 762))
+      (shape (rect B.Cu -762 -762 762 762))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1710x580_um
+      (shape (rect F.Cu -855 -290 855 290))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(U1-Pad7)"
+      (pins U2-5 U1-7)
+    )
+    (net "Net-(U1-Pad6)"
+      (pins U2-7 U1-6)
+    )
+    (net "Net-(U1-Pad5)"
+      (pins U2-6 U1-5)
+    )
+    (net "Net-(U1-Pad3)"
+      (pins U2-3 U1-3)
+    )
+    (net "Net-(U1-Pad2)"
+      (pins U2-4 U1-2)
+    )
+    (net "Net-(U1-Pad1)"
+      (pins U2-8 U1-1)
+    )
+    (net VCC
+      (pins U2-2 U1-8)
+    )
+    (net GND
+      (pins U2-1 U1-4)
+    )
+    (class kicad_default "" GND "Net-(U1-Pad1)" "Net-(U1-Pad2)" "Net-(U1-Pad3)"
+      "Net-(U1-Pad4)" "Net-(U1-Pad5)" "Net-(U1-Pad6)" "Net-(U1-Pad7)" "Net-(U1-Pad8)"
+      "Net-(U2-Pad1)" "Net-(U2-Pad2)" VCC
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
